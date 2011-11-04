@@ -13,7 +13,7 @@ end
 
 Benchmark.bm do |x|
   x.report do
-    100_000.times do
+    10_000.times do
       input.each do |ip, expected|
         ip_filter.check(ip)
       end
