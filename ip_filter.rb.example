@@ -1,0 +1,10 @@
+class IpFilter
+  def initialize(file)
+    puts 'ranges: '
+    puts file.read
+  end
+
+  def check(ip_address)
+    pust 'not implemented'
+  end
+end
